@@ -55,7 +55,16 @@ export default function Home() {
           </p>
         </div>
       </div>
+ <section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
+        <h2 className="text-xl font-bold mb-3">所得税の考え方</h2>
 
+        <p className="text-gray-700 leading-relaxed">
+          所得税は収入に対して一定の税率をかけて計算されます。
+          実際には累進課税制度や控除などがありますが、
+          このツールではシンプルに税率を指定して概算税額を確認できます。
+          給与収入や副業収入の目安確認に利用できます。
+        </p>
+      </section>
       <section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
        <h2 className="text-xl font-bold mb-3">
   他の便利ツール
@@ -108,17 +117,6 @@ export default function Home() {
     </a>
   </li>
 </ul>
-      </section>
-
-      <section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
-        <h2 className="text-xl font-bold mb-3">所得税の考え方</h2>
-
-        <p className="text-gray-700 leading-relaxed">
-          所得税は収入に対して一定の税率をかけて計算されます。
-          実際には累進課税制度や控除などがありますが、
-          このツールではシンプルに税率を指定して概算税額を確認できます。
-          給与収入や副業収入の目安確認に利用できます。
-        </p>
       </section>
 
       <section className="mt-10 max-w-3xl mx-auto text-center">
